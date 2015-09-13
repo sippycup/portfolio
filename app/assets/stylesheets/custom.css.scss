@@ -1,2 +1,32 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	background-color: #bbe9dc;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+	background-color: #fcbb53;
+}
+
+.navbar-default .navbar-brand {
+	font-weight: bold;
+	color: #000000;
+	font-size: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.col-md-8 {
+	h3 {font-size: 32px;}
+	p { font-size: 18px;}
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-size: 18px;
+}
