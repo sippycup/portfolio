@@ -13,6 +13,7 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem "fog-aws"
 gem "figaro"
+gem "mini_magick"
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
