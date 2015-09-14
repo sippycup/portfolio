@@ -14,5 +14,9 @@
 
 <br>
 
-<%= link_to 'Edit', edit_project_path(@project), class: "btn btn-link" %> |
-<%= link_to 'Back', projects_path, class: "btn btn-link" %>
+<% if user_signed_in? %>
+  <%= link_to 'Edit', edit_project_path(@project), class: "btn btn-link" %> |
+  <%= link_to 'Back', projects_path, class: "btn btn-link" %>
+<% else %>
+  <%= link_to 'Back', projects_path, class: "btn btn-link" %>
+<% end %>
