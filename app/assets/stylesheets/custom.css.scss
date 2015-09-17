@@ -2,13 +2,13 @@
 @import "bootstrap";
 
 body {
-	background-color: #fcbb53;
-	color: #000;
+	color: gray;
 	font-family: 'Montserrat', sans-serif;
+	 background-image: url('https://dl.dropboxusercontent.com/s/e9j7knix2e0qvsm/wild_oliva_%402X.png?dl=0');
 }
 
 .navbar-default {
-	background-color: #977031;
+	background-color: gray;
 	border: 1px black solid;
 	border-radius: 0;
 }
@@ -17,24 +17,26 @@ body {
 	text-align: center;
 }
 
-.jumbotron {
-	background-color: #977031;
-	border: 1px black solid;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-default .navbar-brand {
-    color: #000;
-    font-weight: 100;
-    font-size: 40px;
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,-1px 1px 0 #fff;
-}
-
 .navbar-default .navbar-nav > li > a {
     color: #000;
     font-size: 20px;
 }
 
 .thumbnail {
-	border: 1px black solid;
+	height: 420px;
+	background: #000000;
+	border: 2px #000000 solid
+}
+
+.caption {
+	h3 {
+		color: #878383;
+	}
+	p {
+		color: #878383;
+	}
+}
+
+.navbar-brand {
+	font-size: 40px;
 }
