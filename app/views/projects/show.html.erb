@@ -1,6 +1,17 @@
 <div class="row">
 	<div class="col-md-4">
 		<%= image_tag @project.image_url %>
+		<div class="container">
+			<br>
+			<p>
+      			<strong>Website:</strong><br>
+      			<%= link_to @project.website, @project.website %>	
+    		</p>
+    		<p>
+  				<strong>Code:</strong><br>
+      			<%= link_to @project.link, @project.link %>
+    		</p>
+	    </div>
 	</div>
 	<div class="col-md-8">
 		<h3><%= @project.name %></h3>
